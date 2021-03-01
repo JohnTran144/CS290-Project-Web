@@ -1,0 +1,77 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+hr {
+  background-color: none;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 30%;
+  color: black;
+}
+
+img {
+  height: 200px;
+}
+
+.profile {
+  border-radius: 100%;
+}
+
+#work {
+  color: black;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Previous button */
+.prev {
+  position: absolute;
+  top: 35%;
+  padding: 16px;
+  color: white;
+}
+
+/* Next button */
+.next {
+  position: absolute;
+  top: 35%;
+  padding: 16px;
+  color: white;
+}
+
+/* Position the "next button" to the left more */
+.next {
+  left: 285px;
+  border-radius: 3px 0 0 3px;
+}
