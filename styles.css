@@ -65,13 +65,8 @@ nav ul li {
 /* Next button */
 .next {
   position: absolute;
-  top: 35%;
+  padding-left: 500px;
+  top: 20%;
   padding: 16px;
   color: white;
-}
-
-/* Position the "next button" to the left more */
-.next {
-  left: 285px;
-  border-radius: 3px 0 0 3px;
 }
