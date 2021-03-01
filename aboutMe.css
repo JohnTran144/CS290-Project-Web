@@ -1,0 +1,24 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.scrollBox {
+  width: 500px;
+  height: 200px;
+  overflow: scroll;
+  border: 1px;
+  font-size: 150%;
+}
